@@ -113,13 +113,7 @@ npm install
 npm run dev
 ```
 
-Frontend will run on:
 
-```bash
-http://localhost:5173
-```
-
----
 
 ## 🚀 Usage
 
