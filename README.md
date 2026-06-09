@@ -1,82 +1,164 @@
-# AI DSA Mentor
+# 🚀 AI DSA Mentor
 
-An AI-powered command-line programming tutor built using **Node.js** and **Google Gemini API**. The assistant answers coding and Data Structures & Algorithms (DSA) questions while restricting non-programming discussions.
+AI DSA Mentor is a full-stack web application that helps students learn Data Structures and Algorithms through an AI-powered mentor built using React, Express.js, and Google's Gemini API.
 
-## Features
+Users can ask coding questions, learn DSA concepts, understand algorithms, debug code, and receive AI-generated explanations in a modern chat interface.
 
-* AI-powered coding assistance
-* DSA and algorithm explanations
-* Interactive command-line chat interface
-* Custom system prompt for programming-focused responses
-* Environment variable support using dotenv
-* Secure API key management
+---
 
-## Tech Stack
+## ✨ Features
+
+* 🤖 AI-powered DSA mentor using Gemini 2.5 Flash
+* 💬 Real-time chat interface
+* 🧠 Session-based conversation memory
+* ⚡ Fast React frontend
+* 🔥 Express.js backend
+* 🔒 Environment variable support using dotenv
+* 🎨 Modern and responsive UI
+* 📝 Programming-focused responses
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* CSS
+
+### Backend
 
 * Node.js
+* Express.js
+
+### AI
+
 * Google Gemini API
-* JavaScript (ES Modules)
-* readline-sync
+
+### Other Tools
+
 * dotenv
+* CORS
 
-## Project Structure
+---
 
-```text
-AI-DSA-Mentor/
+## 📂 Project Structure
+
+```bash
+AI-DSA-Mentor
 │
-├── index.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-├── README.md
-└── .env
+├── client
+│   ├── src
+│   │   ├── App.jsx
+│   │   ├── components
+│   │   └── styles
+│   └── package.json
+│
+├── server
+│   ├── server.js
+│   ├── .env
+│   └── package.json
+│
+└── README.md
 ```
 
-## Installation
+---
 
-Clone the repository:
+## ⚙️ Installation
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-dsa-mentor.git
-cd ai-dsa-mentor
+git clone https://github.com/your-username/AI-DSA-Mentor.git
+cd AI-DSA-Mentor
 ```
 
-Install dependencies:
+---
+
+### Setup Backend
 
 ```bash
+cd server
 npm install
 ```
 
-## Environment Variables
-
-Create a `.env` file in the root directory:
+Create a `.env` file:
 
 ```env
-GEMINI_API_KEY=your_gemini_api_key
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
-## Running the Project
+Start the server:
 
 ```bash
-node index.js
+node server.js
 ```
 
-## Example
+Backend will run on:
 
-```text
-You: What is Binary Search?
-
-AI: Binary Search is an efficient searching algorithm that works on sorted arrays...
+```bash
+http://localhost:3000
 ```
 
-## Future Improvements
+---
 
-* Web-based user interface
-* Chat history storage
-* Code syntax highlighting
-* Multiple AI model support
+### Setup Frontend
+
+Open a new terminal:
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Frontend will run on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🚀 Usage
+
+1. Start the backend server.
+2. Start the React frontend.
+3. Open the application in your browser.
+4. Ask DSA or programming-related questions.
+5. Receive AI-generated explanations and guidance.
+
+---
+
+## 🎯 Future Improvements
+
+* User authentication
+* Chat history storage with MongoDB
+* Syntax highlighting for code
+* Markdown support
+* File upload support
+* Coding challenge generator
 * Interview preparation mode
+* Deployment on Render and Vercel
 
-## Author
+---
+
+## 📸 Demo
+
+<img width="1918" height="886" alt="image" src="https://github.com/user-attachments/assets/4cdd4056-67ee-47c3-8db9-8110c0477a76" />
+
+
+---
+
+## 👩‍💻 Author
 
 Khushi Yadav
+
+Built to help students learn Data Structures and Algorithms through AI-powered mentoring.
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star on GitHub.
